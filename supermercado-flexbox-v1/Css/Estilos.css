@@ -1,0 +1,158 @@
+h1, h2,  h3, h4, h5{
+    font-family: 'Roboto', sans-serif;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu .logo a img{
+    width: 80px;
+}
+.enlaces ul{
+    list-style: none;
+    display: flex;
+}
+.enlaces ul li{
+    margin-right: 10px;
+}
+.enlaces ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.enlaces ul li a:hover{
+    border-bottom: 1px solid red;
+    color: red;
+}
+.iconos i,
+.iconos svg{
+    margin-right: 5px;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+}
+.iconos i:hover,
+.iconos svg:hover{
+    color: red;
+    background-color: white;
+    font-size: 20px;
+}
+/* estilos principal */
+.principal{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -402px;
+    display: flex;
+    justify-content: center;
+}
+.principal .con-texto{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+.principal .con-texto h1{
+    font-size: 50px;
+    color: red;
+}
+.principal .con-texto p{
+    font-size: 20px;
+    color: gray;
+}
+.principal .con-texto a{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+/*Sesión Descuento*/
+.Descuentos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.Descuentos .Imágenes-Descuentos img{
+    width: 300px;
+    height: 300px;
+}
+.Imágenes-Descuentos{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly
+}
+.Título h2,
+.Productos .Título-Productos{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+.Título h2{
+    font-size: 50px;
+}
+/*Sesión Productos*/
+.Productos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Contenedor-Productos{
+    width: 100%;
+    height: auto;
+}
+.Contenedor-Productos .Tarjeta-Productos{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.Tarjeta-Productos img{
+    width: 100%;
+    height: 200px;
+}
+.Tarjeta-Productos .Contenido{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.Tarjeta-Productos .Contenido h3{
+   color: rgb(223, 20, 20);
+   font-size: 35px;
+   font-weight: bold;
+}
+.Tarjeta-Productos .Contenido p{
+    font-size: 20px;
+}
+.Tarjeta-Productos .Botones{
+    width: 100%;
+    height: auto;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.Tarjeta-Productos .Botones p{
+    font-size: bold;
+    color: black;
+}
+.Tarjeta-Productos .Botones a{
+     background-color: red;
+     color:  white;
+     padding:  7px 12px;
+     border-radius: 10px;
+     text-decoration: none;
+}
+
+
+
